@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-#fields = line.split("\t")
+
 import sys
 
 counter = 0
