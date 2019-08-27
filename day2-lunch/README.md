@@ -9,3 +9,6 @@ samtools sort -@ 4 SRR072893.10k.sam -o SRR072893.10k.bam
 samtools index -b -@ 4 SRR072893.10k.bam SRR072893.10k.bam.bai
 
 stringtie SRR072893.10k.bam -o SRR072893.10k.gtf -p 4 -G ~/qbb2019-answers/day1-morning/BDGP6.Ensembl.81.gtf -B -e
+
+EXPLAIN THE DIFFERENCES BETWEEN EACH CATEGORY: 
+columns with 20 have an alignments score and other alignment info while those with a value of 12 may not have that info
